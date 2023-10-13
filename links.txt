@@ -1,0 +1,6 @@
+1c5eaa2e70276f099ae3d9c68fe2262e
+
+
+
+
+"https://api.themoviedb.org/3/movie/now_playing?api_key=1c5eaa2e70276f099ae3d9c68fe2262e"
