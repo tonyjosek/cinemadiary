@@ -25,7 +25,7 @@ export const MovieDetail = () => {
     <main>
       <section className="flex flex-wrap justify-around py-5">
         <div className="max-w-sm flex items-center " >
-          <img className="rounded max-h-96" src={image} alt="Movie image" />
+          <img className="rounded max-h-96" src={image} alt="Movie poster" />
         </div>
         <div className="max-w-2xl text-grey-500 dark:text-white">
         <h1 className="text-5xl font-bold py-4  text-center lg:text-left" >{movie.title}</h1>
@@ -62,7 +62,7 @@ export const MovieDetail = () => {
         </p>    
         <p className="my-2">
           <span className="font-bold">IMDB Score: </span>
-          <a href={`https://www.imdb.com/title/${movie.imdb_id}`}target="_blank" rel="noreferer">{movie.imdb_id}</a>
+          <a href={`https://www.imdb.com/title/${movie.imdb_id}`}target="_blank" rel="noreferrer">{movie.imdb_id}</a>
         </p>        
       </div>
       </section>
